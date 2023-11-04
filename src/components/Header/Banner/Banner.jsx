@@ -9,7 +9,7 @@ const Banner = () => {
         I Grow By Helping People In Need
         </h2>
         <div className="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal antialiased">
-        <input className="px-4 w-[75%] text-black py-2 rounded" type="text" placeholder="Search Here"/>
+        <input className="px-4 w-[75%] text-black py-2 rounded" name="value" type="text" placeholder="Search Here"/>
         <button className="text-white bg-pink-500 py-2 px-4 rounded -ms-1">Search</button>
         </div>
       </div>

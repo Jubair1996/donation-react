@@ -12,7 +12,7 @@ const Donate = ({ donate }) => {
   } = donate;
  
   return (
-    <Link to={`/donate/${id}`}>
+    <Link to={`/donate/${id}`} state={category}>
       <div className="relative h-96 flex flex-col rounded-xl bg-white  bg-clip-border text-gray-700 shadow-md" style={{backgroundColor:card_bg_color}}>
         <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
           <img className="w-full" src={picture} alt="ui/ux review check" />
